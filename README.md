@@ -1,10 +1,10 @@
-## Install all the required packages:
+## Install all the required packages
 ```bash
 pip install -r requirements.txt
 ```
 
-## Dataset Preparation:
-put the dataset in ./data/origianl directory, please guarantee there is 'src_txt' and 'tgt_txt', and each dataset contains train.json, valid.json and test.json
+## Dataset Preparation
+To put the dataset[CNN/DailyMail, Reddit, XSum, WikiHow, PubMed, NYT] in ./data/original directory, please guarantee there are 'src_txt' and 'tgt_txt', and each dataset contains train.json, valid.json, and test.json
 
 Example of each sample in the original dataset:
 ```json
@@ -15,7 +15,8 @@ Example of each sample in the original dataset:
 }
 ```
 
-## Create a new label for each dataset:
+## Create a new label for each dataset
+To get svs label for CNN/DailyMail, Reddit, XSum, WikiHow, PubMed, NYT 
 ```bash
 python create_svs.py \
     --soruce_path ./data/original/  \
