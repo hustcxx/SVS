@@ -16,7 +16,7 @@ Example of each sample in the original dataset:
 ```
 
 ## Create a new label for each dataset
-To get svs label for CNN/DailyMail, Reddit, XSum, WikiHow, PubMed, NYT 
+To get svs label for CNN/DailyMail, Reddit, XSum, WikiHow, PubMed, NYT datasets
 ```bash
 python create_svs.py \
     --soruce_path ./data/original/  \
