@@ -1,5 +1,7 @@
 ## Install all the required packages:
+```bash
 pip install -r requirements.txt
+```
 
 ## Dataset Preparation:
 put the dataset in ./data/origianl directory, please guarantee there is 'src_txt' and 'tgt_txt', and each dataset contains train.json, valid.json and test.json
